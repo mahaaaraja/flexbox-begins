@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #a1c3ff;
+  }
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px 60px;
+    align-items: baseline;
+    background: #3474e6;
+    color: #fff;
+    height: 60px;
+}
+
+.pages {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.pages div {
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+.banner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 60px;
+    background-color: #0151cc;
+    color: #fff;
+    flex: 1 1 0;
+}
+
+.hero-content {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 50%;
+}
+
+.hero-image {
+    flex: 0 1 250px;
+}
+
+.grid-image {
+    width: 100%;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content-item {
+    margin: 10px;
+    flex-basis: 250px;
+    background-color: #0a51cc;
+    color: white;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.content-heading {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+/* div {
+    border: 3px solid red;
+}
+
+div div {
+    border: 2px solid green;
+}
+
+div div div {
+    border: 1px solid black;
+} */
